@@ -82,7 +82,7 @@ class _InheritedWidgetTestContainerState
             children: <Widget>[
               new Padding(
                 padding: const EdgeInsets.only(left: 10.0, top: 10.0, right: 10.0),
-                child: new Text('我们常使用的\nTheme.of(context).textTheme\nMediaQuery.of(context).size等\n就是通过InheritedWidget实现的',
+                child: new Text('我们常使用的Theme.of(context).textTheme\nMediaQuery.of(context).size等就是通过InheritedWidget实现的',
                   style: new TextStyle(fontSize: 20.0),),
               ),
               new TestWidgetA(),
